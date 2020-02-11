@@ -1,0 +1,55 @@
+.people
+  &__swiper    
+    margin-left: auto
+    margin-right: auto
+    position: relative
+    overflow: hidden
+    list-style: none
+    padding: 0
+    z-index: 1
+
+  &__inner
+    padding-top: 6.8rem
+
+    &-list
+      display: flex
+      justify-content: space-between
+
+    &-item
+      position: relative
+      max-width: 54rem
+      width: 100%
+      display: flex
+      justify-content: space-between
+
+      // box-shadow: inset -3px 1px 10px 10px rgba($primary, 0.8)
+      background-color: #eee
+
+
+      &::before
+        content: ''
+        width: 54rem
+        height: 34.5rem
+        position: absolute       
+        bottom: -13.6rem       
+
+        background: url('../images/png/people__bg.png') no-repeat
+        
+
+    &-text
+      position: relative
+      align-self: flex-end
+      max-width: 23.6rem
+      margin-bottom: 2rem
+      margin-right: auto
+
+      color: $white
+
+    
+
+      span
+        display: block
+        margin-top: 1.5rem
+
+        text-transform: uppercase
+

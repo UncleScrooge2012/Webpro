@@ -1,0 +1,179 @@
+.features
+  background-color: $primary
+  color: $white
+  
+  &__inner
+    padding-top: 6.7rem
+    display: flex
+    justify-content: space-between
+
+.col
+  &__left
+    max-width: 40.6rem
+
+    &-list
+      padding-right: 12.4rem
+      position: relative
+
+      &::after
+        content: ''
+        position: absolute
+        top: 4rem
+        right: 0.1rem
+        width: 0.1rem
+        height: 46.4rem
+
+        background-color: $white
+
+    &-item      
+      position: relative
+      margin-bottom: 11rem
+      &::after
+        content: ''
+        position: absolute 
+        right: -12.3rem
+        height: 0.1rem
+        width: 2.5rem
+
+        background-color: $white
+
+      &::before
+        content: ''
+        position: absolute 
+        right: -7.5rem
+
+        background: no-repeat
+
+      &.item-1
+        &::after
+          top: 3.9rem
+
+        &::before
+          width: 5.4rem
+          height: 4.7rem
+          top: 2.4rem
+
+          background-image: url("../images/png/features__icon-1.png")          
+         
+      &.item-2
+        &::after
+          top: 46%
+
+        &::before
+          width: 5rem
+          height: 4.3rem
+          top: 3rem
+
+          background-image: url("../images/png/features__icon-2.png")
+
+      &.item-3
+        margin-bottom: 0
+
+        &::after
+          top: 6rem
+        
+        &::before
+          width: 4.3rem
+          height: 5.1rem
+          top: 3.4rem
+          background-image: url("../images/png/features__icon-3.png")
+
+    &-titel
+      font-size: 2.2rem
+      font-weight: 700
+      text-transform: uppercase
+      text-align: right
+      
+    &-text
+      max-width: 28.2rem
+      padding-top: 1rem
+      
+      font-weight: 300
+      line-height: 2.6rem
+      text-align: right    
+
+  &__right
+    max-width: 40rem
+
+    &-list
+      padding-left: 12.5rem
+      position: relative
+
+      &::after
+        content: ''
+        position: absolute
+        top: 4rem
+        left:  0.1rem
+        width: 0.1rem
+        height: 46.4rem 
+        background-color: $white 
+
+    &-item  
+      position: relative
+      margin-bottom: 11rem
+      &::after
+        content: ''
+        position: absolute 
+        left: -12.3rem
+        height: 0.1rem
+        width: 2.5rem
+
+        background-color: $white
+
+      &::before
+        content: ''
+        position: absolute 
+        left: -7.5rem
+
+        background: no-repeat
+
+      &.item-1
+        &::after
+          top: 3.9rem
+
+        &::before
+          width: 5rem
+          height: 4.4rem
+          top: 2.4rem
+
+          background-image: url("../images/png/features__icon-4.png")
+
+      &.item-2
+        &::after
+          top: 46%
+
+        &::before
+          width: 4.7rem
+          height: 4.7rem
+          top: 3rem
+
+          background-image: url("../images/png/features__icon-5.png")
+      
+      &.item-3
+        margin-bottom: 0
+
+        &::after
+          top: 6rem
+        
+        &::before
+          width: 5.1rem
+          height: 3.9rem
+          top: 3.4rem
+          background-image: url("../images/png/features__icon-6.png")
+      
+
+    &-titel
+      font-size: 2.2rem
+      font-weight: 700
+      text-transform: uppercase
+      text-align: left
+
+    &-text
+      max-width: 28.2rem
+      padding-top: 1rem
+      
+      font-weight: 300
+      line-height: 2.6rem
+      text-align: left 
+
+    
